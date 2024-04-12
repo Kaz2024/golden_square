@@ -42,3 +42,8 @@ def test_reading_estimate():
     diary_entry = DiaryEntry("My Title", "Some contents two three")
     result = diary_entry.reading_time(2)
     assert result == 2
+
+# Given a word per minute of 2 
+# and a text with 3 words 
+# return 2 minutes
+
